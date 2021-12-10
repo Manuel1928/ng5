@@ -34,8 +34,11 @@ import { DataService } from '../data.service';
 export class HomeComponent implements OnInit {
   
   itemCount: number;
-  btntxt: string ="Add an item";
-  goalText: string ="Mi primer meta en la vida"; 
+  btntxt: string ="Agregar VideoGame";
+  goalText: string ="Mi videojuego favorito es:";
+  adText: string;
+  genText: string;
+  emText: string; 
   goals=[];
   constructor(private _data: DataService) { }
 
@@ -46,9 +49,9 @@ export class HomeComponent implements OnInit {
 
     this._data.getGoals()
      .subscribe((data: any) => {
-      alert(JSON.stringify(data.users));
+      alert(JSON.stringify(data.videogames));
 
-      this.goals = data.users;
+      this.goals = data.videogames;
       this._data.changeGoal(this.goals);
 
     });
@@ -58,10 +61,10 @@ export class HomeComponent implements OnInit {
   AgregarMeta(){
 
     var payload = {
-      name : this.goalText,
-      email : "adsoft@live.com.mx",
-      age: "90",
-      comments: "Sir adsoft"
+      titulo : this.goalText,
+      año : this.adText,
+      genero: this.genText,
+      empresa: this.emText
     }
 
     this._data.newGoal(payload)

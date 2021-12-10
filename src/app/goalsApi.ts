@@ -1,6 +1,6 @@
 export class GoalsApi {
-    name: string;
-    email: string;
-    age: string;
-    comments: string;
+    titulo: string;
+    año: string;
+    genero: string;
+    empresa: string;
   }
