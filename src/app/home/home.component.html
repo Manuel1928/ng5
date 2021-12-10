@@ -11,6 +11,23 @@
     <p>Tu lista de deseos ({{  itemCount }})</p>
   
   </div>
+<<<<<<< HEAD
+
+</div>
+<div class ="container color-ligth" [@goals]="goals.length ">
+  
+    <div class = "col">
+     
+      <p class="sm">Use this form below to add a bucket list goal. What do yo want to do with..</p>
+      <form>
+        <input type="text" class="txt" name="item" placeholder="Titulo del VideoGame" [(ngModel)]= "goalText">
+	<input type="text" class="txt" name="item" placeholder="Año del VideoGame" [(ngModel)]= "adText">
+	<input type="text" class="txt" name="item" placeholder="Genero del VideoGame" [(ngModel)]= "genText">
+	<input type="text" class="txt" name="item" placeholder="Empresa del VideoGame" [(ngModel)]= "emText">
+
+        <br> <span>{{goalText}}</span>
+        
+=======
 
 </div>
 <div class ="container color-ligth" [@goals]="goals.length ">
@@ -24,6 +41,7 @@
 	<input type="text" class="txt" name="item" placeholder="Genero del VideoGame" [(ngModel)]= "genText">
 	<input type="text" class="txt" name="item" placeholder="Empresa del VideoGame" [(ngModel)]= "emText">
         <br> <span>{{goalText}}</span>
+>>>>>>> master
         <input type="submit" class ="btn" value="{{ btntxt }}" (click)="AgregarMeta()">
       </form>
     </div>

@@ -17,6 +17,41 @@ export class DataService {
 
   changeGoal(goal){
     this.goals.next(goal)
+<<<<<<< HEAD
+  }
+
+  //apiURL = 'http://localhost:8080';
+  apiURL = 'http://34.125.7.41:8128/api';
+
+  // Http Options
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Origin':'*',
+      'Access-Control-Allow-Methods':'GET' 
+      })
+  }  
+
+  
+
+  getGoals(): Observable<GoalsApi> {
+    return this.http.get<GoalsApi>(this.apiURL + '/VideoGames', this.httpOptions)
+    .pipe(
+      retry(1),
+      catchError(this.handleError)
+    )
+  }   
+
+  newGoal(payload): Observable<GoalsApi> {
+    return this.http.post<GoalsApi>(this.apiURL + '/VideoGames', JSON.stringify(payload), this.httpOptions)
+    .pipe(
+      retry(1),
+      catchError(this.handleError)
+    )
+  }
+
+=======
   }
 
   //apiURL = 'http://localhost:8080';
@@ -51,6 +86,7 @@ export class DataService {
     )
   }
 
+>>>>>>> master
 /*
   postParks(parksApi): Observable<ParksApi> {
     //console.log("print post: " + this.apiURL + '/parques', JSON.stringify(parksApi), this.httpOptions)
@@ -75,5 +111,9 @@ export class DataService {
     return throwError(errorMessage);
  }
 
+<<<<<<< HEAD
+}
+=======
 }
  
+>>>>>>> master
