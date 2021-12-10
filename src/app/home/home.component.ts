@@ -32,7 +32,10 @@ import { DataService } from '../data.service';
   ]
 })
 export class HomeComponent implements OnInit {
+<<<<<<< HEAD
   
+=======
+>>>>>>> master
   itemCount: number;
   btntxt: string ="Agregar VideoGame";
   goalText: string ="Mi videojuego favorito es:";
