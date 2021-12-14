@@ -12,7 +12,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-lo
 exports = ___CSS_LOADER_API_IMPORT___(true);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);"]);
 // Module
-exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\nbody {\n  background: #2E9CE6;\n  padding: 3em;\n  font-family: \"Raleway\", \"Arial\";\n  color: #fff;\n}\nul {\n  list-style-type: none;\n  margin: 0 0 2em 0;\n  padding: 0;\n}\nul li {\n  display: inline;\n  margin-right: 30px;\n}\nul li a {\n  font-size: 1.5em;\n}\na {\n  color: #fff;\n  text-decoration: none;\n}", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":";AAAA,8EAAA;AAKA;EACI,mBAAA;EACA,YAAA;EACA,+BAAA;EACA,WAAA;AAFJ;AAIA;EACI,qBAAA;EACA,iBAAA;EACA,UAAA;AADJ;AAGA;EACI,eAAA;EACA,kBAAA;AAAJ;AAEA;EACI,gBAAA;AACJ;AACA;EACI,WAAA;EACA,qBAAA;AAEJ","file":"styles.scss","sourcesContent":["/* You can add global styles to this file, and also import other style files */\r\n\r\n\r\n@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');\r\n\r\nbody {\r\n    background: #2E9CE6;\r\n    padding: 3em;\r\n    font-family: 'Raleway', 'Arial';\r\n    color:#fff;\r\n}\r\nul {\r\n    list-style-type:none;\r\n    margin:0 0 2em 0;\r\n    padding:0;\r\n}\r\nul li {\r\n    display:inline;\r\n    margin-right: 30px;\r\n}\r\nul li a {\r\n    font-size: 1.5em;\r\n}\r\na {\r\n    color:#fff;\r\n    text-decoration:none;\r\n}"]}]);
+exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\nbody {\n  background: #2E9CE6;\n  padding: 3em;\n  font-family: \"Raleway\", \"Arial\";\n  color: #fff;\n}\nul {\n  list-style-type: none;\n  margin: 0 0 2em 0;\n  padding: 0;\n}\nul li {\n  display: inline;\n  margin-right: 30px;\n}\nul li a {\n  font-size: 1.5em;\n}\na {\n  color: #fff;\n  text-decoration: none;\n}", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":";AAAA,8EAAA;AAKA;EACI,mBAAA;EACA,YAAA;EACA,+BAAA;EACA,WAAA;AAFJ;AAIA;EACI,qBAAA;EACA,iBAAA;EACA,UAAA;AADJ;AAGA;EACI,eAAA;EACA,kBAAA;AAAJ;AAEA;EACI,gBAAA;AACJ;AACA;EACI,WAAA;EACA,qBAAA;AAEJ","file":"styles.scss","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n\n\n@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');\n\nbody {\n    background: #2E9CE6;\n    padding: 3em;\n    font-family: 'Raleway', 'Arial';\n    color:#fff;\n}\nul {\n    list-style-type:none;\n    margin:0 0 2em 0;\n    padding:0;\n}\nul li {\n    display:inline;\n    margin-right: 30px;\n}\nul li a {\n    font-size: 1.5em;\n}\na {\n    color:#fff;\n    text-decoration:none;\n}"]}]);
 // Exports
 module.exports = exports;
 
@@ -440,7 +440,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Blue\Desktop\ng5\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! /home/leonardo/Escritorio/ng5/src/styles.scss */"./src/styles.scss");
 
 
 /***/ })
