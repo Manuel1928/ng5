@@ -440,7 +440,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/leonardo/Escritorio/ng5/src/styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! C:\Users\Blue\Desktop\ng5\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
