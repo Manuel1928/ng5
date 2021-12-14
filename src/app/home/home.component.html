@@ -11,7 +11,6 @@
     <p>Tu lista de deseos ({{  itemCount }})</p>
   
   </div>
-<<<<<<< HEAD
 
 </div>
 <div class ="container color-ligth" [@goals]="goals.length ">
@@ -26,8 +25,6 @@
 	<input type="text" class="txt" name="item" placeholder="Empresa del VideoGame" [(ngModel)]= "emText">
 
         <br> <span>{{goalText}}</span>
-        
-=======
 
 </div>
 <div class ="container color-ligth" [@goals]="goals.length ">
@@ -41,17 +38,17 @@
 	<input type="text" class="txt" name="item" placeholder="Genero del VideoGame" [(ngModel)]= "genText">
 	<input type="text" class="txt" name="item" placeholder="Empresa del VideoGame" [(ngModel)]= "emText">
         <br> <span>{{goalText}}</span>
->>>>>>> master
+
         <input type="submit" class ="btn" value="{{ btntxt }}" (click)="AgregarMeta()">
       </form>
     </div>
    
     <div class = "col">
      <p class="life-container" *ngFor="let goal of goals; let i = index" (click)="removeItem(i)">
-
         {{goal.titulo}} - {{goal.empresa}}
       </p>
     
     </div>
   
   </div>
+</div>
